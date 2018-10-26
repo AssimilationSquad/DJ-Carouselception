@@ -1,0 +1,910 @@
+[{
+_id: 0,
+name: dank sanctuary,
+type: entire lair,
+beds: 10,
+price: 129,
+stars: 3,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/9.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/4.jpg']
+},
+{
+_id: 1,
+name: wonderful retreat,
+type: entire water cave,
+beds: 4,
+price: 50,
+stars: 1,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/7.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg']
+},
+{
+_id: 2,
+name: hidden cloister,
+type: private mountain cave,
+beds: 7,
+price: 53,
+stars: 5,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg']
+},
+{
+_id: 3,
+name: damp haunt,
+type: entire mountain cave,
+beds: 1,
+price: 170,
+stars: 4,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg']
+},
+{
+_id: 4,
+name: hidden hideaway,
+type: private water cave,
+beds: 4,
+price: 127,
+stars: 5,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/7.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/7.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/7.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/7.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg']
+},
+{
+_id: 5,
+name: great retreat,
+type: private mountain cave,
+beds: 3,
+price: 157,
+stars: 2,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/4.jpg']
+},
+{
+_id: 6,
+name: wonderful haunt,
+type: entire water cave,
+beds: 7,
+price: 159,
+stars: 2,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/7.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg']
+},
+{
+_id: 7,
+name: great retreat,
+type: entire castle,
+beds: 9,
+price: 39,
+stars: 1,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/3.jpg']
+},
+{
+_id: 8,
+name: hidden haunt,
+type: private ice cave,
+beds: 7,
+price: 35,
+stars: 2,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg']
+},
+{
+_id: 9,
+name: great sanctuary,
+type: private lair,
+beds: 6,
+price: 200,
+stars: 2,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/8.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/1.jpg']
+},
+{
+_id: 10,
+name: great hideaway,
+type: private mountain cave,
+beds: 1,
+price: 142,
+stars: 5,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg']
+},
+{
+_id: 11,
+name: great haunt,
+type: private ice cave,
+beds: 4,
+price: 66,
+stars: 4,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/4.jpg']
+},
+{
+_id: 12,
+name: wonderful haunt,
+type: private castle,
+beds: 9,
+price: 170,
+stars: 1,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/5.jpg']
+},
+{
+_id: 13,
+name: great hideaway,
+type: entire ice cave,
+beds: 4,
+price: 174,
+stars: 3,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg']
+},
+{
+_id: 14,
+name: cozy cloister,
+type: entire castle,
+beds: 10,
+price: 28,
+stars: 1,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/1.jpg']
+},
+{
+_id: 15,
+name: wonderful haunt,
+type: private ice cave,
+beds: 9,
+price: 85,
+stars: 1,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg']
+},
+{
+_id: 16,
+name: dank cloister,
+type: entire ice cave,
+beds: 8,
+price: 169,
+stars: 2,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/6.jpg']
+},
+{
+_id: 17,
+name: dank hideaway,
+type: entire water cave,
+beds: 8,
+price: 170,
+stars: 4,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/7.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/4.jpg']
+},
+{
+_id: 18,
+name: cozy retreat,
+type: entire lair,
+beds: 4,
+price: 80,
+stars: 5,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/8.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/5.jpg']
+},
+{
+_id: 19,
+name: cozy cloister,
+type: entire mountain cave,
+beds: 1,
+price: 180,
+stars: 2,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/5.jpg']
+},
+{
+_id: 20,
+name: great sanctuary,
+type: private lair,
+beds: 5,
+price: 181,
+stars: 2,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/8.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/9.jpg']
+},
+{
+_id: 21,
+name: damp cloister,
+type: entire ice cave,
+beds: 2,
+price: 156,
+stars: 1,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg']
+},
+{
+_id: 22,
+name: cozy sanctuary,
+type: private mountain cave,
+beds: 4,
+price: 153,
+stars: 5,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/2.jpg']
+},
+{
+_id: 23,
+name: cozy retreat,
+type: private water cave,
+beds: 4,
+price: 143,
+stars: 3,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg']
+},
+{
+_id: 24,
+name: hidden haunt,
+type: entire lair,
+beds: 4,
+price: 55,
+stars: 1,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/7.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/6.jpg']
+},
+{
+_id: 25,
+name: damp cloister,
+type: entire water cave,
+beds: 10,
+price: 170,
+stars: 2,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg']
+},
+{
+_id: 26,
+name: wonderful hideaway,
+type: private lair,
+beds: 7,
+price: 113,
+stars: 4,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/8.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/7.jpg']
+},
+{
+_id: 27,
+name: damp haunt,
+type: entire mountain cave,
+beds: 6,
+price: 80,
+stars: 1,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg']
+},
+{
+_id: 28,
+name: dank retreat,
+type: entire ice cave,
+beds: 9,
+price: 96,
+stars: 3,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/3.jpg']
+},
+{
+_id: 29,
+name: cozy sanctuary,
+type: entire ice cave,
+beds: 6,
+price: 42,
+stars: 1,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/2.jpg']
+},
+{
+_id: 30,
+name: superior sanctuary,
+type: private water cave,
+beds: 10,
+price: 139,
+stars: 4,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/7.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/7.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg']
+},
+{
+_id: 31,
+name: wonderful haunt,
+type: private mountain cave,
+beds: 1,
+price: 46,
+stars: 4,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg']
+},
+{
+_id: 32,
+name: dank retreat,
+type: entire ice cave,
+beds: 6,
+price: 89,
+stars: 3,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg']
+},
+{
+_id: 33,
+name: dank retreat,
+type: private castle,
+beds: 7,
+price: 149,
+stars: 3,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/5.jpg']
+},
+{
+_id: 34,
+name: dank cloister,
+type: private water cave,
+beds: 2,
+price: 137,
+stars: 4,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/5.jpg']
+},
+{
+_id: 35,
+name: damp cloister,
+type: entire mountain cave,
+beds: 7,
+price: 190,
+stars: 3,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg']
+},
+{
+_id: 36,
+name: cozy cloister,
+type: entire mountain cave,
+beds: 6,
+price: 182,
+stars: 2,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg']
+},
+{
+_id: 37,
+name: dank sanctuary,
+type: private water cave,
+beds: 2,
+price: 100,
+stars: 4,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/7.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg']
+},
+{
+_id: 38,
+name: damp cloister,
+type: private lair,
+beds: 10,
+price: 21,
+stars: 3,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/8.jpg']
+},
+{
+_id: 39,
+name: cozy cloister,
+type: private ice cave,
+beds: 5,
+price: 22,
+stars: 3,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg']
+},
+{
+_id: 40,
+name: cozy hideaway,
+type: entire lair,
+beds: 7,
+price: 36,
+stars: 5,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/5.jpg']
+},
+{
+_id: 41,
+name: wonderful retreat,
+type: private lair,
+beds: 3,
+price: 135,
+stars: 3,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/5.jpg']
+},
+{
+_id: 42,
+name: superior sanctuary,
+type: entire mountain cave,
+beds: 2,
+price: 74,
+stars: 3,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg']
+},
+{
+_id: 43,
+name: superior sanctuary,
+type: private ice cave,
+beds: 1,
+price: 140,
+stars: 5,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg']
+},
+{
+_id: 44,
+name: hidden sanctuary,
+type: private water cave,
+beds: 7,
+price: 59,
+stars: 5,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg']
+},
+{
+_id: 45,
+name: damp cloister,
+type: entire ice cave,
+beds: 1,
+price: 117,
+stars: 3,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg']
+},
+{
+_id: 46,
+name: hidden hideaway,
+type: entire water cave,
+beds: 9,
+price: 175,
+stars: 4,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/7.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg']
+},
+{
+_id: 47,
+name: dank sanctuary,
+type: private ice cave,
+beds: 7,
+price: 71,
+stars: 5,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/5.jpg']
+},
+{
+_id: 48,
+name: cozy hideaway,
+type: private water cave,
+beds: 9,
+price: 108,
+stars: 4,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/7.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg']
+},
+{
+_id: 49,
+name: cozy sanctuary,
+type: entire lair,
+beds: 9,
+price: 83,
+stars: 1,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/9.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/7.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/6.jpg']
+},
+{
+_id: 50,
+name: wonderful hideaway,
+type: entire lair,
+beds: 8,
+price: 47,
+stars: 5,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/9.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/9.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/6.jpg']
+},
+{
+_id: 51,
+name: great hideaway,
+type: entire lair,
+beds: 2,
+price: 21,
+stars: 4,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/7.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/7.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/5.jpg']
+},
+{
+_id: 52,
+name: superior hideaway,
+type: entire lair,
+beds: 8,
+price: 52,
+stars: 4,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/8.jpg']
+},
+{
+_id: 53,
+name: damp retreat,
+type: entire ice cave,
+beds: 2,
+price: 168,
+stars: 5,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/4.jpg']
+},
+{
+_id: 54,
+name: lovely sanctuary,
+type: private castle,
+beds: 10,
+price: 177,
+stars: 1,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/4.jpg']
+},
+{
+_id: 55,
+name: hidden sanctuary,
+type: entire water cave,
+beds: 1,
+price: 31,
+stars: 1,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/7.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg']
+},
+{
+_id: 56,
+name: hidden sanctuary,
+type: private water cave,
+beds: 2,
+price: 29,
+stars: 1,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/4.jpg']
+},
+{
+_id: 57,
+name: wonderful sanctuary,
+type: entire water cave,
+beds: 2,
+price: 161,
+stars: 3,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/7.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/7.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/1.jpg']
+},
+{
+_id: 58,
+name: damp hideaway,
+type: entire ice cave,
+beds: 9,
+price: 44,
+stars: 1,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg']
+},
+{
+_id: 59,
+name: great hideaway,
+type: entire lair,
+beds: 6,
+price: 24,
+stars: 5,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/8.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/4.jpg']
+},
+{
+_id: 60,
+name: great retreat,
+type: entire ice cave,
+beds: 3,
+price: 48,
+stars: 3,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg']
+},
+{
+_id: 61,
+name: dank retreat,
+type: private water cave,
+beds: 7,
+price: 30,
+stars: 2,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/7.jpg']
+},
+{
+_id: 62,
+name: dank sanctuary,
+type: private ice cave,
+beds: 1,
+price: 138,
+stars: 3,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/3.jpg']
+},
+{
+_id: 63,
+name: cozy sanctuary,
+type: entire mountain cave,
+beds: 2,
+price: 120,
+stars: 5,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg']
+},
+{
+_id: 64,
+name: cozy sanctuary,
+type: private castle,
+beds: 9,
+price: 173,
+stars: 2,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/1.jpg']
+},
+{
+_id: 65,
+name: wonderful haunt,
+type: entire mountain cave,
+beds: 8,
+price: 149,
+stars: 4,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg']
+},
+{
+_id: 66,
+name: dank retreat,
+type: entire mountain cave,
+beds: 5,
+price: 188,
+stars: 5,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/1.jpg']
+},
+{
+_id: 67,
+name: great sanctuary,
+type: entire ice cave,
+beds: 7,
+price: 68,
+stars: 5,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg']
+},
+{
+_id: 68,
+name: wonderful retreat,
+type: private lair,
+beds: 7,
+price: 20,
+stars: 2,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/2.jpg']
+},
+{
+_id: 69,
+name: superior cloister,
+type: entire lair,
+beds: 6,
+price: 155,
+stars: 5,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/7.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/1.jpg']
+},
+{
+_id: 70,
+name: superior retreat,
+type: entire ice cave,
+beds: 4,
+price: 199,
+stars: 1,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/5.jpg']
+},
+{
+_id: 71,
+name: lovely cloister,
+type: entire mountain cave,
+beds: 10,
+price: 72,
+stars: 5,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/5.jpg']
+},
+{
+_id: 72,
+name: cozy hideaway,
+type: private mountain cave,
+beds: 10,
+price: 116,
+stars: 2,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg']
+},
+{
+_id: 73,
+name: damp cloister,
+type: private lair,
+beds: 1,
+price: 25,
+stars: 1,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/9.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/8.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/9.jpg']
+},
+{
+_id: 74,
+name: damp retreat,
+type: private water cave,
+beds: 3,
+price: 168,
+stars: 4,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/2.jpg']
+},
+{
+_id: 75,
+name: wonderful cloister,
+type: entire water cave,
+beds: 2,
+price: 121,
+stars: 3,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/7.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/1.jpg']
+},
+{
+_id: 76,
+name: hidden hideaway,
+type: entire mountain cave,
+beds: 8,
+price: 25,
+stars: 1,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg']
+},
+{
+_id: 77,
+name: wonderful hideaway,
+type: entire castle,
+beds: 2,
+price: 156,
+stars: 5,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/4.jpg']
+},
+{
+_id: 78,
+name: lovely haunt,
+type: entire water cave,
+beds: 5,
+price: 125,
+stars: 2,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg']
+},
+{
+_id: 79,
+name: great hideaway,
+type: entire mountain cave,
+beds: 5,
+price: 187,
+stars: 4,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg']
+},
+{
+_id: 80,
+name: great haunt,
+type: private lair,
+beds: 9,
+price: 178,
+stars: 3,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/9.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/1.jpg']
+},
+{
+_id: 81,
+name: superior sanctuary,
+type: entire ice cave,
+beds: 8,
+price: 142,
+stars: 3,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg']
+},
+{
+_id: 82,
+name: great retreat,
+type: entire castle,
+beds: 5,
+price: 189,
+stars: 1,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/1.jpg']
+},
+{
+_id: 83,
+name: dank hideaway,
+type: entire water cave,
+beds: 9,
+price: 102,
+stars: 4,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/7.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/2.jpg']
+},
+{
+_id: 84,
+name: great cloister,
+type: entire castle,
+beds: 10,
+price: 128,
+stars: 5,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/1.jpg']
+},
+{
+_id: 85,
+name: damp sanctuary,
+type: private lair,
+beds: 3,
+price: 134,
+stars: 4,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/9.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/7.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/9.jpg']
+},
+{
+_id: 86,
+name: dank haunt,
+type: private castle,
+beds: 9,
+price: 140,
+stars: 2,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/1.jpg']
+},
+{
+_id: 87,
+name: superior haunt,
+type: entire mountain cave,
+beds: 7,
+price: 195,
+stars: 2,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg']
+},
+{
+_id: 88,
+name: hidden cloister,
+type: entire water cave,
+beds: 6,
+price: 122,
+stars: 1,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/6.jpg']
+},
+{
+_id: 89,
+name: wonderful retreat,
+type: private castle,
+beds: 6,
+price: 39,
+stars: 4,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/2.jpg']
+},
+{
+_id: 90,
+name: great hideaway,
+type: entire lair,
+beds: 1,
+price: 176,
+stars: 3,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/9.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/lairs/5.jpg']
+},
+{
+_id: 91,
+name: lovely haunt,
+type: private castle,
+beds: 7,
+price: 132,
+stars: 3,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/6.jpg']
+},
+{
+_id: 92,
+name: cozy sanctuary,
+type: entire mountain cave,
+beds: 5,
+price: 160,
+stars: 1,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/4.jpg']
+},
+{
+_id: 93,
+name: dank sanctuary,
+type: entire water cave,
+beds: 3,
+price: 24,
+stars: 2,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/3.jpg']
+},
+{
+_id: 94,
+name: damp haunt,
+type: private castle,
+beds: 3,
+price: 33,
+stars: 3,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/1.jpg']
+},
+{
+_id: 95,
+name: superior hideaway,
+type: private castle,
+beds: 8,
+price: 116,
+stars: 5,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/castles/2.jpg']
+},
+{
+_id: 96,
+name: great cloister,
+type: private water cave,
+beds: 7,
+price: 75,
+stars: 3,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/7.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/6.jpg']
+},
+{
+_id: 97,
+name: lovely sanctuary,
+type: entire mountain cave,
+beds: 8,
+price: 37,
+stars: 4,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/3.jpg']
+},
+{
+_id: 98,
+name: dank retreat,
+type: private ice cave,
+beds: 9,
+price: 77,
+stars: 3,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/6.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/ice_caves/1.jpg']
+},
+{
+_id: 99,
+name: damp hideaway,
+type: entire mountain cave,
+beds: 2,
+price: 154,
+stars: 2,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/mountain_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/1.jpg']
+},
+{
+_id: 100,
+name: damp sanctuary,
+type: entire water cave,
+beds: 9,
+price: 144,
+stars: 2,
+imgs: ['https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/5.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/1.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/4.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/2.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/3.jpg', 'https://s3-us-west-1.amazonaws.com/dj-fec/photos/water_caves/4.jpg']
+},
+]
