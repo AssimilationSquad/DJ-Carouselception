@@ -1,0 +1,31 @@
+{
+  "name": "dj-carouselception",
+  "version": "1.0.0",
+  "description": "Airbnb similar listings clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AssimilationSquad/DJ-Carouselception.git"
+  },
+  "keywords": [
+    "airbnb",
+    "similar",
+    "carousel"
+  ],
+  "author": "kestrad",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/AssimilationSquad/DJ-Carouselception/issues"
+  },
+  "homepage": "https://github.com/AssimilationSquad/DJ-Carouselception#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.3.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
