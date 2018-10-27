@@ -1,7 +1,9 @@
 import numpy as np
 import random
+import os 
+dir_path = os.path.dirname(os.path.realpath(__file__))
 
-sampleListings = "["
+sampleListings = "[ \n"
 
 for num in range(101):
   type1 = ['private', 'entire']
@@ -40,21 +42,26 @@ for num in range(101):
 
   doc = "{" + '\n'
 
-  doc += '_id: ' + str(num) + ',\n'
-  doc += 'name: ' + title + ',\n'
-  doc += 'type: ' + booking + ',\n'
-  doc += 'beds: ' + str(random.randint(1, 10)) + ',\n'
-  doc += 'price: ' + str(random.randint(20, 201)) + ',\n'
-  doc += 'stars: ' + str(random.randint(1, 5)) + ',\n'
-  doc += 'imgs: ' + str(imgs) + '\n'
+  doc += '"_id": ' + '"' + str(num) + '",\n'
+  doc += '"name": ' + '"' + title + '",\n'
+  doc += '"type": ' + '"' + booking + '",\n'
+  doc += '"beds": ' + '"' + str(random.randint(1, 10)) + '",\n'
+  doc += '"price": ' + '"' + str(random.randint(20, 201)) + '",\n'
+  doc += '"stars": ' + '"' + str(random.randint(1, 5)) + '",\n'
+  doc += '"imgs": ' + '"' + str(imgs) + '"\n'
 
-  doc += "},\n"
+  doc += "}"
+
+  if num != 100:
+    doc += ","
+
+  doc += "\n"
 
   sampleListings += doc
 
-sampleListings += "]"
+sampleListings += "] \n"
 
-textfile = open('seed.txt', 'w')
+textfile = open(dir_path + '/seed.txt', 'w')
 textfile.write(sampleListings)
 textfile.close()
 
