@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 const uri = 'mongodb://localhost/similar';
 
-const db = mongoose.connect(uri);
+mongoose.connect(uri);
+
+const db = mongoose.connection;
 
 module.exports = db;
