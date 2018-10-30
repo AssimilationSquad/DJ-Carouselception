@@ -1,9 +1,10 @@
 import numpy as np
 import random
-import os 
+import os
+import json 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
-sampleListings = "[ \n"
+sampleListings = []
 
 for num in range(101):
   type1 = ['private', 'entire']
@@ -40,29 +41,19 @@ for num in range(101):
       intUrl = "https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/" + str(random.randint(1, 5)) + ".jpg"
       imgs.append(intUrl)
 
-  doc = "{" + '\n'
+  doc = {}
 
-  doc += '"_id": ' + '"' + str(num) + '",\n'
-  doc += '"name": ' + '"' + title + '",\n'
-  doc += '"type": ' + '"' + booking + '",\n'
-  doc += '"beds": ' + '"' + str(random.randint(1, 10)) + '",\n'
-  doc += '"price": ' + '"' + str(random.randint(20, 201)) + '",\n'
-  doc += '"stars": ' + '"' + str(random.randint(1, 5)) + '",\n'
-  doc += '"imgs": ' + '"' + str(imgs) + '"\n'
+  doc['_id'] = num
+  doc['name'] = title
+  doc['type'] = booking
+  doc['beds'] = random.randint(1, 10)
+  doc['price'] = random.randint(20, 201)
+  doc['stars'] = random.randint(1, 5)
+  doc['imgs'] = imgs
 
-  doc += "}"
+  sampleListings.append(doc)
 
-  if num != 100:
-    doc += ","
-
-  doc += "\n"
-
-  sampleListings += doc
-
-sampleListings += "] \n"
-
-textfile = open(dir_path + '/seed.txt', 'w')
-textfile.write(sampleListings)
-textfile.close()
+with open(dir_path + '/seed.txt', 'w') as outfile:
+    json.dump(sampleListings, outfile)
 
 #print doc
