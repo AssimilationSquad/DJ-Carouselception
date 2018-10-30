@@ -33,10 +33,10 @@ for num in range(101):
 
   numImgs = random.randint(3, 6)
   for i in range(numImgs):
-    imgNum = random.randint(1, photoUrl[1] + 1)
+    imgNum = random.randint(1, photoUrl[1])
     finalUrl = photoUrl[0] + str(imgNum) + ".jpg"
     imgs.append(finalUrl)
-    intYN = random.randint(0, 2)
+    intYN = random.randint(0, 1)
     if photoChoice in ("ice", "water", "mountain") and intYN:
       intUrl = "https://s3-us-west-1.amazonaws.com/dj-fec/photos/interiors/" + str(random.randint(1, 5)) + ".jpg"
       imgs.append(intUrl)

@@ -1,0 +1,22 @@
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.photos {
+  width: 300px;
+  height: 200px;
+}
+
+.listing {
+  padding: 10px;
+}
+
+.infopane {
+  overflow: hidden;
+}
+
+.infopane span {
+  float: left;
+  clear: both;
+}
