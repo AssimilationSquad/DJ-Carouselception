@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 
 const Listings = require('../db/Listings.js');
 
@@ -6,20 +7,18 @@ const port = 3003;
 
 const app = express();
 
-app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, '..', 'public')));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(express.static('public'));
 
-app.get('/rooms/:id', (req, res) => {
+app.get('/similar/rooms/:id', (req, res) => {
   Listings.findById(req.params.id, 'type')
     .exec((err, entry) => {
       if (err) {
         res.status(500);
         res.send('error retrieving data');
       } else {
-        console.log(entry);
         Listings.find({ type: entry.type })
           .limit(12)
           .exec((error, data) => {
@@ -35,6 +34,13 @@ app.get('/rooms/:id', (req, res) => {
           });
       }
     });
+});
+
+app.use('/rooms', express.static(path.join(__dirname, '..', 'public')));
+
+app.get('/rooms/:id', (req, res) => {
+  res.status(200);
+  res.sendFile(path.join(__dirname, '..', 'public', 'index.html'));
 });
 
 app.listen(port, () => {
