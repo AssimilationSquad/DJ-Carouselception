@@ -1,42 +1,47 @@
 import React from 'react';
 import $ from 'jquery';
 
-import InfoPane from './InfoPane.jsx';
-import Photos from './Photos.jsx';
+import Listing from './Listing.jsx';
+import sampleData from './sampledata';
 
 class SimilarListings extends React.Component {
   constructor(props) {
-    var url = window.location.pathname;
-
     super(props);
 
     this.state = {
-      listings: null
+      listings: sampleData,
     };
   }
 
   componentDidMount() {
-    $.ajax({
-      type: 'GET',
-      url: url,
-      success: (data) => {
-        this.setState({
-          listings: data
-        })
-      },
-      error: function() {
-        console.log('something went wrong!');
-      }
-    });
+    const url = window.location.pathname;
+
+    if (url !== '/') {
+      $.ajax({
+        type: 'GET',
+        url: `/similar${url}`,
+        success: (data) => {
+          this.setState({
+            listings: data,
+          });
+          console.log(this.state.listings);
+        },
+        error: () => {
+          console.log('something went wrong!');
+        },
+      });
+    }
   }
 
   render() {
     return (
-      <div className = 'similar'>
-        {this.state.listings.map((listing) => {
+      <div className="similar">
+        {this.state.listings.map(listing => (
           <Listing listing={listing} />
-        })}
+        ))}
       </div>
     );
   }
 }
+
+export default SimilarListings;

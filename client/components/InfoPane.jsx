@@ -1,6 +1,6 @@
 import React from 'react';
 
-(props) => (
+const InfoPane = props => (
   <div className="infoPane">
     <span className="type">{props.listing.type} * </span>
     <span className="beds">{props.listing.beds} beds</span>
@@ -11,4 +11,6 @@ import React from 'react';
     <br />
     <span className="stars">{'⭐️'.repeat(props.listing.stars)}</span>
   </div>
-)
+);
+
+export default InfoPane;
