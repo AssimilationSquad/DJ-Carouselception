@@ -34,16 +34,11 @@ class SimilarListings extends React.Component {
     }
   }
 
-  getOrder(index) {
-    const currentPos = this.state.position;
-    return { order: index - this.state.position };
-  }
-
   nextSlide() {
     this.setState({
       listings: this.state.listings,
       position: this.state.position + 1,
-      transform: `translateX(${-34*(this.state.position+1)}vw)`,
+      transform: -34*(this.state.position+1),
     });
   }
 
@@ -51,7 +46,7 @@ class SimilarListings extends React.Component {
     this.setState({
       listings: this.state.listings,
       position: this.state.position -1,
-      transform: `translateX(${-34*(this.state.position-1)}vw)`,
+      transform: -34*(this.state.position-1),
     });
   }
 
@@ -61,7 +56,7 @@ class SimilarListings extends React.Component {
         <h1>Similar listings</h1>
         <div className="carousel">
           {this.state.listings.map((listing, index) => (
-            <Listing listing={listing} key={index} style-order={() => this.getOrder(index)} style-trans={this.state.transform} />
+            <Listing listing={listing} key={index} transform={this.state.transform} />
           ))}
         </div>
         <button type="button" onClick={() => this.prevSlide()} style={{ display: this.state.position ? 'inline-block' : 'none' }}>Prev</button>
