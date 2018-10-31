@@ -38,7 +38,7 @@ class SimilarListings extends React.Component {
     this.setState({
       listings: this.state.listings,
       position: this.state.position + 1,
-      transform: -34*(this.state.position+1),
+      transform: -100*(this.state.position+1),
     });
   }
 
@@ -46,7 +46,7 @@ class SimilarListings extends React.Component {
     this.setState({
       listings: this.state.listings,
       position: this.state.position -1,
-      transform: -34*(this.state.position-1),
+      transform: -100*(this.state.position-1),
     });
   }
 
@@ -56,11 +56,11 @@ class SimilarListings extends React.Component {
         <h1>Similar listings</h1>
         <div className="carousel">
           {this.state.listings.map((listing, index) => (
-            <Listing listing={listing} key={index} transform={this.state.transform} />
+            <Listing listing={listing} order={index} transform={this.state.transform} />
           ))}
         </div>
-        <button type="button" onClick={() => this.prevSlide()} style={{ display: this.state.position ? 'inline-block' : 'none' }}>Prev</button>
-        <button type="button" onClick={() => this.nextSlide()} style={{ display: this.state.position + 3 - this.state.listings.length ? 'inline-block' : 'none' }}>Next</button>
+        <button id="prev" type="button" onClick={() => this.prevSlide()} style={{ display: this.state.position ? 'inline-block' : 'none' }}>&lt;</button>
+        <button id="next" type="button" onClick={() => this.nextSlide()} style={{ display: this.state.position + 3 - this.state.listings.length ? 'inline-block' : 'none' }}>&gt;</button>
       </div>
     );
   }

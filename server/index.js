@@ -28,7 +28,6 @@ app.get('/similar/rooms/:id', (req, res) => {
               res.send('error finding similar listings');
             } else {
               res.status(200);
-              console.log(data);
               res.send(data);
             }
           });

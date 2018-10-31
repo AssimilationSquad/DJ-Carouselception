@@ -3,12 +3,26 @@ img {
   height: 100%;
 }
 
+@font-face {
+  font-family: futura;
+  src: url(Futura.ttc);
+}
+
 h1 {
-  padding-left: 10px;
+  margin-left: 5%;
+  padding: 5px;
+  font-family: futura;
+  font-size: 18pt;
+}
+
+.similar {
+  position: relative;
+  width: 100%;
 }
 
 .carousel {
-  width: calc(100% - 20px);
+  margin: auto;
+  width: 90%;
   height: 50%;
   display: flex;
   flex-wrap: nowrap;
@@ -23,16 +37,60 @@ h1 {
 
 .listing {
   width: 33%;
-  padding: 10px;
+  padding: 5px;
   flex: 0 0 auto;
   transition: transform 0.5s ease;
 }
 
 .infopane {
+  padding-top: 10px;
   overflow: hidden;
+  font-family: futura;
 }
 
 .infopane span {
   float: left;
   clear: both;
+  padding-bottom: 3px;
+}
+
+.type-and-beds {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+
+.price {
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+#next, #prev {
+  position: absolute;
+  top: 15%;
+  width: 2%;
+  z-index: 1;
+  height: 60%;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 100%;
+  border: none;
+}
+
+button:focus {
+  outline: 0;
+}
+
+#next {
+  right: 5px;
+}
+
+#prev {
+  left: 5px;
 }
