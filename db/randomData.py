@@ -49,6 +49,7 @@ for num in range(101):
   doc['beds'] = random.randint(1, 10)
   doc['price'] = random.randint(20, 201)
   doc['stars'] = random.randint(1, 5)
+  doc['reviews'] = random.randint(75, 1000)
   doc['imgs'] = imgs
 
   sampleListings.append(doc)

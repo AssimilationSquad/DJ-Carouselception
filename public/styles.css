@@ -68,7 +68,14 @@ h1 {
 }
 
 .stars {
-  font-size: 6pt;
+  font-size: 7pt;
+}
+
+.stars .reviews{
+  float: none;
+  font-size: 8pt;
+  font-weight: 700;
+  padding-left: 3px;
 }
 
 #next, #prev {
