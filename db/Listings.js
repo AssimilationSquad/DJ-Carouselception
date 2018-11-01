@@ -9,7 +9,8 @@ const listingSchema = new mongoose.Schema({
   beds: Number,
   price: Number,
   stars: Number,
-  imgs: [String]
+  reviews: Number,
+  imgs: [String],
 });
 
 const Listing = mongoose.model('Listing', listingSchema);
