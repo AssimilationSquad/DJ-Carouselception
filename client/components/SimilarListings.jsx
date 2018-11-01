@@ -60,7 +60,7 @@ class SimilarListings extends React.Component {
           ))}
         </div>
         <button id="prev" type="button" onClick={() => this.prevSlide()} style={{ display: this.state.position ? 'inline-block' : 'none' }}>&lt;</button>
-        <button id="next" type="button" onClick={() => this.nextSlide()} style={{ display: this.state.position + 3 - this.state.listings.length ? 'inline-block' : 'none' }}>&gt;</button>
+        <button id="next" type="button" onClick={() => this.nextSlide()} style={{ display: (this.state.position + 3 - this.state.listings.length) != (this.state.listings.length < 4) ? 'inline-block' : 'none' }}>&gt;</button>
       </div>
     );
   }
