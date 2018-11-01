@@ -2,14 +2,13 @@ import React from 'react';
 import $ from 'jquery';
 
 import Listing from './Listing.jsx';
-import sampleData from './sampledata';
 
 class SimilarListings extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      listings: sampleData,
+      listings: this.props.sampleData,
       position: 0,
     };
   }
