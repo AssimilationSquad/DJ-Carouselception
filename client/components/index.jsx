@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SimilarListings from './SimilarListings.jsx';
+import App from './App.jsx';
+import '../../public/styles.css';
 
-ReactDOM.render(<SimilarListings />, document.getElementById('more'));
+ReactDOM.render(<App />, document.getElementById('more'));

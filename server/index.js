@@ -15,21 +15,21 @@ app.use(express.urlencoded({ extended: false }));
 app.get('/similar/rooms/:id', (req, res) => {
   Listings.findById(req.params.id, 'type')
     .exec((err, entry) => {
-      if (err) {
+      if (err || !entry) {
         res.status(500);
         res.send('error retrieving data');
       } else {
         Listings.find({ type: entry.type })
           .limit(12)
-          .exec((error, data) => {
-            if (error) {
-              res.status(500);
-              console.log(error);
-              res.send('error finding similar listings');
-            } else {
-              res.status(200);
-              res.send(data);
-            }
+          .exec()
+          .then((data) => {
+            res.status(200);
+            res.send(data);
+          })
+          .catch((error) => {
+            res.status(500);
+            console.log(error);
+            res.send('error finding similar listings');
           });
       }
     });

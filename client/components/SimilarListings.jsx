@@ -2,14 +2,13 @@ import React from 'react';
 import $ from 'jquery';
 
 import Listing from './Listing.jsx';
-import sampleData from './sampledata';
 
 class SimilarListings extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      listings: sampleData,
+      listings: this.props.sampleData,
       position: 0,
     };
   }
@@ -22,10 +21,12 @@ class SimilarListings extends React.Component {
         type: 'GET',
         url: `/similar${url}`,
         success: (data) => {
-          this.setState({
-            listings: data,
-            position: 0,
-          });
+          if (data.length > 0) {
+            this.setState({
+              listings: data,
+              position: 0,
+            });
+          }
         },
         error: () => {
           console.log('something went wrong!');
@@ -38,15 +39,15 @@ class SimilarListings extends React.Component {
     this.setState({
       listings: this.state.listings,
       position: this.state.position + 1,
-      transform: -100*(this.state.position+1),
+      transform: -100 * (this.state.position + 1),
     });
   }
 
   prevSlide() {
     this.setState({
       listings: this.state.listings,
-      position: this.state.position -1,
-      transform: -100*(this.state.position-1),
+      position: this.state.position - 1,
+      transform: -100 * (this.state.position - 1),
     });
   }
 
@@ -60,7 +61,7 @@ class SimilarListings extends React.Component {
           ))}
         </div>
         <button id="prev" type="button" onClick={() => this.prevSlide()} style={{ display: this.state.position ? 'inline-block' : 'none' }}>&lt;</button>
-        <button id="next" type="button" onClick={() => this.nextSlide()} style={{ display: (this.state.position + 3 - this.state.listings.length) != (this.state.listings.length < 4) ? 'inline-block' : 'none' }}>&gt;</button>
+        <button id="next" type="button" onClick={() => this.nextSlide()} style={{ display: (this.state.position > this.state.listings.length - 4) || (this.state.listings.length < 4) ? 'none' : 'inline-block' }}>&gt;</button>
       </div>
     );
   }

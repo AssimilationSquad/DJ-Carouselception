@@ -1,9 +1,11 @@
-img {
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,700,800,900');
+
+.photos img {
   width: 100%;
   height: 100%;
 }
 
-h1 {
+.similar h1 {
   margin-left: 5%;
   padding: 5px;
   font-family: 'futura', 'Muli', sans-serif;
