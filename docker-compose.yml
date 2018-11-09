@@ -1,0 +1,18 @@
+version: "2"
+services:
+  server:
+    container_name: similar
+    build: .
+    ports:
+      - "3003:3003"
+    links:
+      - mongodb
+  mongodb:
+    container_name: mongodb
+    image: mongo
+    ports:
+      - "27017:27017"
+  mongo-seed:
+    build: ./db
+    links:
+    - mongodb

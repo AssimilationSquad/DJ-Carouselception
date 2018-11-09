@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 require('mongoose').Promise = Promise;
 
-const uri = 'mongodb://localhost/similar';
+const uri = 'mongodb://mongodb:27017/similar';
 
 mongoose.connect(uri);
 
