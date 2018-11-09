@@ -20,7 +20,7 @@
 .carousel {
   margin: auto;
   width: 90%;
-  height: 50%;
+  height: 50vh;
   display: flex;
   flex-wrap: nowrap;
   white-space: nowrap;
@@ -41,13 +41,13 @@
   transition: transform 0.5s ease;
 }
 
-.infopane {
+.infoPane {
   padding-top: 10px;
   overflow: hidden;
   font-family: 'Muli', sans-serif;
 }
 
-.infopane span {
+.infoPane span {
   float: left;
   clear: both;
   padding-bottom: 3px;
